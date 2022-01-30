@@ -1,0 +1,45 @@
+.header
+{
+	background-color: brown;
+}
+
+.link
+{
+ 	float: right;
+}
+.side
+{
+	border: 5px;
+	padding: 5%;
+}
+.main
+{
+	border: 5px ;
+	padding: 5%;
+}
+.container
+{
+	display: flex;
+	margin: 0px 0px;
+	padding: 2%;
+	border: 5px ;
+	
+}
+
+#one
+{
+	margin-right: 20px;
+	padding: 5%;
+	float: left;
+	padding-right: 50%;
+}
+#two
+{
+	padding: 5%;
+	float: right;
+}
+.footer
+{
+	background-color: brown;
+	display: flex;
+}

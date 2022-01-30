@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>life hacks</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="svg">
+		<svg width="200" height="130">
+                                <ellipse cx="100" cy="70" rx="85" ry="55" 
+                                fill="#FF3B3F"/>
+                              
+                                <text fill="000045" font-size="30" font-family=" blue serif" x="50" y="86">
+                                  IP project
+                                </text>
+                                <defs><linearGradient x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:brown; stop-opacity:2;" />
+                                    <stop offset="100%" style="stop-color:chocolate; stop-opacity: 2;"/>
+                                </linearGradient></defs>
+                                sorry your browser doesn't support inline SVG
+                            </svg>  
+                            <div class="link">
+
+	<nav >
+		<p><a href = "#" > Podcasts </a> |<a href = "#" > Articles </a> |<a href = "#" > Ideas </a> | <a href = "#" >About us </a>|<a href = "#" > Contact Us </a> |</p>
+	</nav>
+</div>
+
+<div class="bookmark">
+	<p> <a href="#"> Go to bottom </a></p>
+</div>
+
+	</header>
+	<hr>
+	<div class="container">
+
+	<div class="main">
+		<h1>Eric Hoffer and the Power of Self-Education</h1>
+<img src="life1.jpg" width=100% usemap="#image-map" class="img">
+
+<map name="image-map">
+    <area target="_blank" alt="Nature" title="Nature" href="https://www.nature.org/en-us/" coords="33,323,344,34" shape="rect">
+    <area target="_blank" alt="Head" title="faces" href="https://www.faces.com/ae-en" coords="488,109,42" shape="circle">
+    <area target="_blank" alt="Bags" title="Bags" href="https://www.riverisland.com/c/girls/bags-and-purses" coords="506,155,488,232,502,351,554,369,582,346,578,194,543,149" shape="poly">
+</map>
+<p>
+	I recently read The True Believer by Eric Hoffer. It’s a book about how mass movements evolve. With a lot of historical examples, the book explains the patterns and common threads among them. It’s an insightful book and reading it was a great learning experience for me. 
+</p>
+<p>
+	What I’d like to share with you here is not the content of the book, though. Instead, I’d like to share with you about the author. You see, I didn’t know about Eric Hoffer before. But I imagined he must be a famous professor from a well-known university. I mean, what else could explain the depth of his insights? The True Believer is an influential book. Here is how read <a href="#" >Wikipedia</a> put it... <a href="#" >read
+more</a>
+</p>
+<hr>
+<h6>New Podcast</h6>
+<h2> Jack Ma - How I Overcame Failure
+</h2>
+ <audio id="audi" controls onplay="alert('audio played ')" onpause="alert('audio paused')"><source src="Jack Ma - How I Overcame Failure.mp3" type="audio/mpeg">audio</audio>
+      <div class="jsimplement">
+      <button onClick="swap(aNode, bNode)">swap video and image</button>
+      <button onclick="audioremove()">remove audio </button>
+      <button onclick="myFunction()">add new list item </button>
+      </div>
+ <hr>
+ <h6>Pick of The Week </h6>
+ <h2>24 Hours A Day </h2>
+<video width="420" height="340"  class="vid" >
+	<source src="24_HOURS.mp4" type=" video/mp4" >
+</video>
+	</div>
+	<div class="side">
+		<h2> Recent Posts </h2>
+			<details>
+		<summary>Articles</summary>
+			<ul>
+			<li>
+				The Importance of Goals, Especially During Difficult Times 
+			</li> 
+			<li>
+				5 Steps to Discovering Your Life Purpose In 2022! 
+			</li>
+			</ul>
+			</details>
+	<details>
+		<summary>Ideas</summary>
+			<ul>
+			<li>
+				10 Books to Read in The Fall 
+			</li> 
+			<li>
+				Top Web Development Projects Ideas 
+			</li>
+			</ul>
+	</details>
+		<details>
+			<summary>Most Viewed Articls</summary> 
+	<ol type="I">
+		<li>Instant Gratification Is Stopping You From Reaching Your Goals! li> </li>
+		<li>  Stop Juggling Between Work And Life </li>
+	</ol>
+</details>
+	<p>	IP Project Winners </p>
+	<p id="mylist"> </p>
+	<pre>
+        ---------------------------------
+        Rank    Award 
+        ---------------------------------
+        First   Free hosting and support 
+        Second  5GB Mobile Data 
+        Third   1GB Mobile Data 
+        ---------------------------------- 
+</pre>
+
+	</div>
+</div>
+<hr>
+<footer>
+	<p align="center">Copyright © AASTU SEng 2021, All Rights Reserved</p>
+	<div class="footer">
+		<div id="one"><p > Follow us on : <a href="#">Facebook</a> |<a href="#"> Twitter</a></p></div>
+	<div id="two"><p > <a href="#">Privacy</a> | <a href="#">Term of use</a></p></div>
+	
+</div>
+	
+</footer>
+<script>
+
+function swap(img,vid) {
+	var x1 = img.parentNode,
+		x2 = vid.parentNode,
+		i1,
+		i2;
+
+	if (!x1|| !x2 || x1.isEqualNode(vid) || x2.isEqualNode(img)) return;
+
+	for (var i = 0; i < x1.children.length; i++) {
+		if (x1.children[i].isEqualNode(img)) {
+			i1 = i;
+		}
+	}
+	for (var i = 0; i < x2.children.length; i++) {
+		if (x2.children[i].isEqualNode(vid)) {
+			i2 = i;
+		}
+	}
+
+	if (x1.isEqualNode(x2) && i1 < i2) {
+		i2++;
+	}
+	x1.insertBefore(vid, x1.children[i1]);
+	x2.insertBefore(img, x2.children[i2]);
+}
+
+var aNode = document.querySelector(".img");
+var bNode = document.querySelector(".vid");
+
+
+        function audioremove() {
+        var myobj = document.getElementById("audi");
+        myobj.remove();
+        }
+
+        function myFunction() {
+        const node = document.createElement("li");
+        const textnode = document.createTextNode("I hate this very much");
+        node.appendChild(textnode);
+        document.getElementById("mylist").appendChild(node);}
+        
+        let clip = document.querySelector(".vid")
+  
+        clip.addEventListener("mouseover", function (e) {
+            clip.play();
+        })
+
+        clip.addEventListener("mouseout", function (e) {
+            clip.pause();
+        })
+    </script>
+
+</body>
+</html>
